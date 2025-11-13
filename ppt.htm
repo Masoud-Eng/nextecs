@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NextGenEcs</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+    }
+    header {
+      background: #003366;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #0055a5;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: block;
+    }
+    nav a:hover {
+      background: #003f7f;
+    }
+    section {
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      margin: 15px 0;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    footer {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    /* Slideshow */
+    .slideshow {
+      position: relative;
+      max-width: 800px;
+      margin: auto;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+    }
+    .slides {
+      display: none;
+      width: 100%;
+    }
+    /* Search box */
+    .search-box {
+      margin: 15px 0;
+      text-align: center;
+    }
+    .search-box input {
+      width: 80%;
+      max-width: 400px;
+      padding: 10px;
+      border-radius: px;
+      border: 1px solid #aaa;
+    }
+    /* Download buttons */
+    .download-btn {
+      display: inline-block;
+      margin: 5px 0;
+      padding: 10px 15px;
+      background: #0055a5;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+    .download-btn:hover {
+      background: #003f7f;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <img src="c:\Users\hamza\OneDrive\Desktop\Project 1\iul_logo (1).webp">
+    <h1>Electrical & Computer Science</h1>
+    <p>Welcome to the website</p>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="https://sms.iul.ac.in/Student/NewsNotices.aspx#parentHorizontalTab1">Notifications</a>
+    <a href="https://www.iul.ac.in/EE/Faculty.aspx">Faculty</a>
+    <a href="https://www.iul.ac.in/EE/Program.aspx">Courses</a>
+    <a href="https://www.iul.ac.in/UpcomingEvents.aspx?e=the-department-of-electrical-engineering-and-electronics-amp-communication-engineering-of-integral-university-is-hosting-2nd-ieee-international-conference-cctes-24-in-hybrid-mode-on-15-16-november-2024-NTQ2OA==">Events</a>
+    <a href="https://www.iul.ac.in/EE/Student.aspx">Syllabus</a>
+    <a href="#students">Student Corner</a>
+    <a href="https://www.iul.ac.in/Program/UG/B_Tech_Electrical_Computer_Science_Engineering.aspx">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- SLIDESHOW -->
+  <section id="events">
+    <h2>🎞 Events Gallery</h2>
+    <div class="slideshow">
+      <img class="slides" src="https://via.placeholder.com/800x400?text=AI+Workshop" alt="AI Workshop">
+      <img class="slides" src="https://via.placeholder.com/800x400?text=Robotics+Seminar" alt="Robotics Seminar">
+      <img class="slides" src="https://via.placeholder.com/800x400?text=Industrial+Visit" alt="Industrial Visit">
+    </div>
+  </section>
+
+  <!-- NOTIFICATIONS -->
+  <section id="notifications">
+    <h2>🔔 Notification</h2>
+    <div class="card search-item"><b>For Electrical Engineering</b> – <a href="https://www.iul.ac.in/EE/">Click Me</a></div>
+    <div class="card search-item"><b>For Computer Science Engineering</b> – <a href="https://www.iul.ac.in/CS/">Click Me</a></div>
+  </section>
+
+  <!-- FACULTY -->
+  <section id="faculty">
+    <h2>👩‍🏫 Faculty</h2>
+    <div class="card search item"><b>Dr. Mohammad Atif Siddiqui </b> – <a href="https://www.iul.ac.in/DWC/Faculty/fileupload/Electrical%20Engineering/_Electrical%20Engineering-CV_Dr.%20M%20A%20Siddiqui_EED.pdf">Profile</a></div>
+    <div class="card search-item"><b>Dr. Asif Jamil Ansari</b> – <a href="https://www.iul.ac.in/DWC/Faculty/fileupload/Electrical%20Engineering/_Electrical%20Engineering-CV_For_Deptt_Website_AJAnsari.pdf">Profile</a></div>
+    <div class="card search-item"><b>Mohammed Arifuddin Mallick</b> – <a href="https://www.iul.ac.in/DWC/Faculty/fileupload/Electrical%20Engineering/_Electrical%20Engineering-CV_M%20A%20Mallick_EE%20Website.pdf">Profile</a></div>
+    <div class="card search-item"><b>Dr. Mohd Khursheed</b> – <a href="https://www.iul.ac.in/DWC/Faculty/fileupload/Electrical%20Engineering/_Electrical%20Engineering-CV_For_Deptt_Website_MKS.pdf"> Profile</a></div>
+    <div class="card search-item"><b>mr. Qamar Alam</b> – <a href="https://www.iul.ac.in/DWC/Faculty/fileupload/Electrical%20Engineering/_Electrical%20Engineering-CV_QAMAR%20ALAM_Website.pdf"> Profile</a></div>
+    <div class="card search-item"><b>Dr. Akhlaque Ahmad Khan</b> – <a href="https://www.iul.ac.in/DWC/Faculty/fileupload/Electrical%20Engineering/_Electrical%20Engineering-CV%20for%20Departmental%20Website%20(Dr.%20Akhlaque%20A.%20Khan).pdf"> Profile</a></div>
+    <div class="card search-item"><b>Mrs. Ambrin Siddiqui</b> – <a href="https://www.iul.ac.in/DWC/Faculty/fileupload/Electrical%20Engineering/_Electrical%20Engineering-CV_For_Deptt_Website_Template_Ambreen%20(1).pdf">Profile</a></div>
+    <div class="card search-item"><b>Dr. Monauwer Alam</b> – <a href="https://www.iul.ac.in/DWC/Faculty/fileupload/Computer%20Science%20&%20Engineering/_Computer%20Science%20&%20Engineering-CV_For%20Website_Malam_oct%202024.pdf">Profile</a></div>
+    <div class="card search-item"><b>Dr. Mirza Mohammad Shadab</b> – <a href="https://www.iul.ac.in/DWC/Faculty/fileupload/Electrical%20Engineering/_Electrical%20Engineering-Shadab_CV_For_Deptt_Website_.pdf">Profile</a></div>
+    <div class="card search-item"><b>Mr. Prabhat Ranjan Sarkar</b> – <a href="https://www.iul.ac.in/DWC/Faculty/fileupload/Electrical%20Engineering/_Electrical%20Engineering-CV%20PRS.pdf">Profile</a></div>
+    <div class="card search-item"><b>Dr. Mohammed Asim</b> – <a href="https://www.iul.ac.in/DWC/Faculty/fileupload/Electrical%20Engineering/_Electrical%20Engineering-CV_For_Deptt_Website_Template_Asim.pdf">Profile</a></div>
+    <div class="card search-item"><b>Dr. Isarar Ahamad</b> – <a href="https://www.iul.ac.in/DWC/Faculty/fileupload/Electrical%20Engineering/_Electrical%20Engineering-IA%20CV%20new.pdf">profile</a></div>
+  </section>
+
+  <!-- COURSES -->
+  <section id="courses">
+    <h2>📚 Courses</h2>
+    <div class="card">B.Tech in Electrical Engineering</div>
+    <div class="card">B.Tech in Computer Science & Engineering</div>
+    <div class="card">M.Tech in Electrical Engineering</div>
+    <div class="card">M.Tech in Computer Science & Engineering</div>
+  </section>
+
+  <!-- SYLLABUS -->
+  <section id="syllabus">
+    <h2>📂 Download Syllabus</h2>
+    <div class="card">
+      <a href="https://www.iul.ac.in/EE/Student.aspx" class="download-btn" download>Download Electrical Engineering Syllabus</a><br>
+      <a href="https://www.iul.ac.in/CS/Student.aspx" class="download-btn" download>Download Computer Science Engineering Syllabus</a>
+    </div>
+  </section>
+
+  <!-- STUDENT CORNER -->
+  <section id="students">
+    <h2>🎓 Student Corner</h2>
+    <div class="card">
+      <h3>Timetables</h3>
+      <a href="https://www.iul.ac.in/EE/Student.aspx" class="download-btn" download>B.Tech Electrical Engineering Timetable</a><br>
+      <a href="https://www.iul.ac.in/CS/Student.aspx" class="download-btn" download>B.Tech Computer Science Engineering Timetable</a>
+    </div>
+    <div class="card">
+      <h3>Results</h3>
+      <a href="https://results.iul.ac.in/" class="download-btn" download>B.Tech Results</a><br>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>🏫 About Department</h2>
+    <div class="card">
+      The Electrical & Computer Science Department aims to provide quality education and research opportunities in emerging technologies such as Artificial Intelligence, Power Electronics, and Smart Grids.
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>📞 Contact</h2>
+    <div class="card">
+      Email: nextgenecs@gmail.com <br>
+      Address: Integral University , Lucknow, India
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Electrical & Computer Science Department. All rights reserved.</p>
+  </footer>
+
+  <!-- JAVASCRIPT -->
+  <script>
+    // Slideshow
+    let index = 0;
+    function showSlides() {
+      let slides = document.getElementsByClassName("slides");
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      index++;
+      if (index > slides.length) {index = 1}
+      slides[index-1].style.display = "block";
+      setTimeout(showSlides, 3000); // Change image every 3s
+    }
+    showSlides();
+
+    // Search function
+    document.getElementById("searchInput").addEventListener("keyup", function() {
+      let filter = this.value.toLowerCase();
+      let items = document.getElementsByClassName("search-item");
+      for (let i = 0; i < items.length; i++) {
+        let text = items[i].innerText.toLowerCase();
+        items[i].style.display = text.includes(filter) ? "" : "none";
+      }
+    });
+  </script>
+
+</body>
+</html>
